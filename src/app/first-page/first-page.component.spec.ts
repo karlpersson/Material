@@ -14,8 +14,6 @@ describe('FirstPageComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ FirstPageComponent ],
       imports:[MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule, MatTableModule, MatPaginatorModule, MatSortModule]
-
-    ]
     })
     .compileComponents();
   }));
